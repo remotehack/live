@@ -16,6 +16,18 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+        <item>
+            <title>Episode 7 - Microterview with Saul</title>
+            <itunes:summary>Adam Parlays with Saul!</itunes:summary>
+            <description>Saul describes his hackday pursuits with React and game dev</description>
+            <link>https://remotehack.space/live/?episode=7</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-7.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 30 May 2020 13:15:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:14</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=7</guid>
+        </item>
 
         <item>
             <title>Episode 6 - Microterview with Gabor</title>
