@@ -17,6 +17,19 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Microterview with Mike</title>
+            <itunes:summary>Ben chats to Mike</itunes:summary>
+            <description>Ben says hello!</description>
+            <link>https://remotehack.space/live/?episode=4</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-4.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 30 May 2020 13:30:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:44</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=4</guid>
+        </item>
+
+        <item>
             <title>Microterview with Ben</title>
             <itunes:summary>Adam chats to Ben</itunes:summary>
             <description>Ben says hello!</description>
