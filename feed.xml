@@ -21,7 +21,7 @@
             <itunes:summary>Description of podcast episode content</itunes:summary>
             <description>The first episode introduce the podcast</description>
             <link>https://remotehack.space/live/feed.xml?episode=1</link>
-            <enclosure url="https://remotehack.space/live/feed.xml?episode=1" type="audio/m4a" length="1024"></enclosure>
+            <enclosure url="https://remotehack.space/live/audio/episode-1.m4a" type="audio/m4a" length="1024"></enclosure>
             <pubDate>Sat, 30 May 2020 09:50:07 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:01:02</itunes:duration>
