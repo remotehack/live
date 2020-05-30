@@ -16,6 +16,20 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+
+        <item>
+            <title>Episode 9 - Microterview with Pete</title>
+            <itunes:summary>Ben and Adam offer Pete a job!</itunes:summary>
+            <description>We're happy that Pete is now our mascot / hero</description>
+            <link>https://remotehack.space/live/?episode=9</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-9.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 30 May 2020 15:30:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:03</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=9</guid>
+        </item>
+
         <item>
             <title>Episode 8 - Intermission chat with Ben</title>
             <itunes:summary>Ben details his audio hackings!</itunes:summary>
