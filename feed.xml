@@ -19,7 +19,7 @@
         <item>
             <title>Microterview with Dan</title>
             <itunes:summary>Adam talks to Dan!</itunes:summary>
-            <description>Dan says hello!</description>
+            <description>Dan says hello! He talks about the majesty of being our first podcast subscriber</description>
             <link>https://remotehack.space/live/?episode=5</link>
             <enclosure url="https://remotehack.space/live/audio/episode-5.m4a" type="audio/m4a"></enclosure>
             <pubDate>Sat, 30 May 2020 13:50:00 +0000</pubDate>
@@ -33,7 +33,7 @@
         <item>
             <title>Microterview with Mike</title>
             <itunes:summary>Ben chats to Mike</itunes:summary>
-            <description>Mike says hello!</description>
+            <description>Mike says hello! Coincidentally, he's also hacking on podcast stuff</description>
             <link>https://remotehack.space/live/?episode=4</link>
             <enclosure url="https://remotehack.space/live/audio/episode-4.m4a" type="audio/m4a"></enclosure>
             <pubDate>Sat, 30 May 2020 13:30:00 +0000</pubDate>
@@ -46,7 +46,7 @@
         <item>
             <title>Microterview with Ben</title>
             <itunes:summary>Adam chats to Ben</itunes:summary>
-            <description>Ben says hello!</description>
+            <description>Ben says hello! We hear more about the "podcast"</description>
             <link>https://remotehack.space/live/?episode=3</link>
             <enclosure url="https://remotehack.space/live/audio/episode-3.m4a" type="audio/m4a"></enclosure>
             <pubDate>Sat, 30 May 2020 12:25:00 +0000</pubDate>
@@ -59,7 +59,7 @@
         <item>
             <title>Microterview with Dag</title>
             <itunes:summary>Ben chats to Dag</itunes:summary>
-            <description>Dag says hello!</description>
+            <description>Dag says hello! We hear about some fun github actions hacks</description>
             <link>https://remotehack.space/live/?episode=2</link>
             <enclosure url="https://remotehack.space/live/audio/episode-2.m4a" type="audio/m4a"></enclosure>
             <pubDate>Sat, 30 May 2020 12:15:00 +0000</pubDate>
@@ -72,7 +72,7 @@
         <item>
             <title>The First of the Micro Casts!</title>
             <itunes:summary>It all starts here!</itunes:summary>
-            <description>Adam says hello</description>
+            <description>Adam says hello. Intro to the podcast and musing about what we're gonna do with this.</description>
             <link>https://remotehack.space/live/?episode=1</link>
             <enclosure url="https://remotehack.space/live/audio/episode-1.m4a" type="audio/m4a" length="1024"></enclosure>
             <pubDate>Sat, 30 May 2020 09:50:07 +0000</pubDate>
