@@ -7,7 +7,7 @@
         <itunes:subtitle>Micro all the things!</itunes:subtitle>
         <itunes:author>Remote Hack</itunes:author>
         <itunes:summary>A podcast during the day of the remote hack</itunes:summary>
-        <description>Talking about the fun stuff during the day of the remote hack (monthly)</description>
+        <description>Talking about the fun stuff during the day of the remote hack (monthly) https://remotehack.space</description>
         <itunes:owner>
             <itunes:name>Remote Hack</itunes:name>
             <itunes:email>mail@remotehack.space</itunes:email>
@@ -18,7 +18,7 @@
 
 
         <item>
-            <title>Microterview with Gabor</title>
+            <title>Episode 6 - Microterview with Gabor</title>
             <itunes:summary>Ben grills Gabor!</itunes:summary>
             <description>Gabor tells us about how he's hacking BBQ stuff. How you like them apples?!?!</description>
             <link>https://remotehack.space/live/?episode=6</link>
@@ -31,7 +31,7 @@
         </item>
 
         <item>
-            <title>Microterview with Dan</title>
+            <title>Episode 5 - Microterview with Dan</title>
             <itunes:summary>Adam talks to Dan!</itunes:summary>
             <description>Dan says hello! He talks about the majesty of being our first podcast subscriber</description>
             <link>https://remotehack.space/live/?episode=5</link>
@@ -45,7 +45,7 @@
 
 
         <item>
-            <title>Microterview with Mike</title>
+            <title>Episdoe 4 - Microterview with Mike</title>
             <itunes:summary>Ben chats to Mike</itunes:summary>
             <description>Mike says hello! Coincidentally, he's also hacking on podcast stuff</description>
             <link>https://remotehack.space/live/?episode=4</link>
@@ -58,7 +58,7 @@
         </item>
 
         <item>
-            <title>Microterview with Ben</title>
+            <title>Episdoe 3 - Microterview with Ben</title>
             <itunes:summary>Adam chats to Ben</itunes:summary>
             <description>Ben says hello! We hear more about the "podcast"</description>
             <link>https://remotehack.space/live/?episode=3</link>
@@ -71,7 +71,7 @@
         </item>
 
         <item>
-            <title>Microterview with Dag</title>
+            <title>Episode 2 - Microterview with Dag</title>
             <itunes:summary>Ben chats to Dag</itunes:summary>
             <description>Dag says hello! We hear about some fun github actions hacks</description>
             <link>https://remotehack.space/live/?episode=2</link>
@@ -84,7 +84,7 @@
         </item>
 
         <item>
-            <title>The First of the Micro Casts!</title>
+            <title>Episode 1 - The First of the Micro Casts!</title>
             <itunes:summary>It all starts here!</itunes:summary>
             <description>Adam says hello. Intro to the podcast and musing about what we're gonna do with this.</description>
             <link>https://remotehack.space/live/?episode=1</link>
