@@ -17,12 +17,25 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 8 - Intermission chat with Ben</title>
+            <itunes:summary>Ben details his audio hackings!</itunes:summary>
+            <description>Adam wanted to hear about Ben's latest adventures with html5 audio hacking, so here it is!</description>
+            <link>https://remotehack.space/live/?episode=8</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-8.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 30 May 2020 14:23:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:14</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=8</guid>
+        </item>
+
+        <item>
             <title>Episode 7 - Microterview with Saul</title>
             <itunes:summary>Adam Parlays with Saul!</itunes:summary>
             <description>Saul describes his hackday pursuits with React and game dev</description>
             <link>https://remotehack.space/live/?episode=7</link>
             <enclosure url="https://remotehack.space/live/audio/episode-7.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 30 May 2020 13:15:00 +0000</pubDate>
+            <pubDate>Sat, 30 May 2020 14:15:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:02:14</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
