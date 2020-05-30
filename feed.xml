@@ -16,15 +16,29 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+
+        <item>
+            <title>Microterview with Gabor</title>
+            <itunes:summary>Ben grills Gabor!</itunes:summary>
+            <description>Gabor tells us about how he's hacking BBQ stuff. How you like them apples?!?!</description>
+            <link>https://remotehack.space/live/?episode=6</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-6.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 30 May 2020 13:15:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:14</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=6</guid>
+        </item>
+
         <item>
             <title>Microterview with Dan</title>
             <itunes:summary>Adam talks to Dan!</itunes:summary>
             <description>Dan says hello! He talks about the majesty of being our first podcast subscriber</description>
             <link>https://remotehack.space/live/?episode=5</link>
             <enclosure url="https://remotehack.space/live/audio/episode-5.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 30 May 2020 13:50:00 +0000</pubDate>
+            <pubDate>Sat, 30 May 2020 12:50:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
-            <itunes:duration>00:01:3344</itunes:duration>
+            <itunes:duration>00:01:33</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <guid>https://remotehack.space/live/feed.xml?episode=5</guid>
         </item>
@@ -36,7 +50,7 @@
             <description>Mike says hello! Coincidentally, he's also hacking on podcast stuff</description>
             <link>https://remotehack.space/live/?episode=4</link>
             <enclosure url="https://remotehack.space/live/audio/episode-4.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 30 May 2020 13:30:00 +0000</pubDate>
+            <pubDate>Sat, 30 May 2020 12:30:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:01:44</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
@@ -49,7 +63,7 @@
             <description>Ben says hello! We hear more about the "podcast"</description>
             <link>https://remotehack.space/live/?episode=3</link>
             <enclosure url="https://remotehack.space/live/audio/episode-3.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 30 May 2020 12:25:00 +0000</pubDate>
+            <pubDate>Sat, 30 May 2020 11:25:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:01:26</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
@@ -62,7 +76,7 @@
             <description>Dag says hello! We hear about some fun github actions hacks</description>
             <link>https://remotehack.space/live/?episode=2</link>
             <enclosure url="https://remotehack.space/live/audio/episode-2.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 30 May 2020 12:15:00 +0000</pubDate>
+            <pubDate>Sat, 30 May 2020 11:15:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:01:19</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
