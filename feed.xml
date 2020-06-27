@@ -18,6 +18,19 @@
 
 
         <item>
+            <title>Episode 12 - Microterview with Jane</title>
+            <itunes:summary></itunes:summary>
+            <description>Our first non-coding remote hacker, Jane, joins us to talk about her motivation for joining the hackday and how it's going</description>
+            <link>https://remotehack.space/live/?episode=12</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-12.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 27 June 2020 10:23:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:57</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=12</guid>
+        </item>
+
+        <item>
             <title>Episode 11 - Special Guest Hosts</title>
             <itunes:summary>Hosted by special guests Jane and Dan</itunes:summary>
             <description>Our two special guest hosts interview Ben as he unboxes a special delivery. It may or may not lead to hacking...</description>
