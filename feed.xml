@@ -18,6 +18,19 @@
 
 
         <item>
+            <title>Episode 13 - Burritos, me laddie!</title>
+            <itunes:summary></itunes:summary>
+            <description>Ben orders a burrito, and Adam speculates about how spicy it will be</description>
+            <link>https://remotehack.space/live/?episode=13</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-13.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 27 June 2020 11:29:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:03:42</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=13</guid>
+        </item>
+
+        <item>
             <title>Episode 12 - Microterview with Jane</title>
             <itunes:summary></itunes:summary>
             <description>Our first non-coding remote hacker, Jane, joins us to talk about her motivation for joining the hackday and how it's going</description>
