@@ -16,6 +16,18 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+        <item>
+            <title>Episode 10 - Good morning, hackday!</title>
+            <itunes:summary>Adam and Ben come out of retirement for Season 4 of the podcast</itunes:summary>
+            <description>The June hackday sees us coming out of retirement to continue the grand tradition of remote hackdays. Ben and Adam muse about all the life lessons learned and loves lost</description>
+            <link>https://remotehack.space/live/?episode=10</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-10.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 27 June 2020 09:11:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:05</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=10</guid>
+        </item>
 
         <item>
             <title>Episode 9 - Microterview with Pete</title>
