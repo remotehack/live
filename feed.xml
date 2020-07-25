@@ -17,6 +17,19 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 17 - Microterview with Ryan (aka: Episode 16 part 1)</title>
+            <itunes:summary>Adam picks up the pieces...</itunes:summary>
+            <description>Ryan is working on some stuff that is very interesting, and Adam FINALLY gets a chance to ask him about it!</description>
+            <link>https://remotehack.space/live/?episode=17</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-17.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 25 July 2020 13:13:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:22</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=17</guid>
+        </item>
+
+        <item>
             <title>Episode 16 - Ben and Ryan have a bubble</title>
             <itunes:summary>Ben tries to interview Ryan, and falls afoul of his own antics</itunes:summary>
             <description>The plan was so clear...and then images of sugar plum jingles started dancing in respective heads, and it all went a bit pants, really</description>
