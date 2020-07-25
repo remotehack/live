@@ -16,6 +16,18 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+        <item>
+            <title>Episode 15 - What's in a logo?</title>
+            <itunes:summary>Ben and Adam discuss a graphical representation of git submodules</itunes:summary>
+            <description>Adam made a thing. Now he needs an image for it...Ben makes a helpful suggestion in what consititutes his first of seven heroic deeds for the day</description>
+            <link>https://remotehack.space/live/?episode=15</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-15.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 25 July 2020 12:56:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:02:39</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=15</guid>
+        </item>
 
         <item>
             <title>Episode 14 - Another day another holla</title>
