@@ -18,8 +18,21 @@
 
 
         <item>
+            <title>Episode 14 - Another day another holla</title>
+            <itunes:summary>Still going strong</itunes:summary>
+            <description>An intro to our fifth remote hack day! Who would have guessed we would still be making magic?!?!</description>
+            <link>https://remotehack.space/live/?episode=14</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-14.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 25 July 2020 12:48:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:12</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=14</guid>
+        </item>
+
+        <item>
             <title>Episode 13 - Burritos, me laddie!</title>
-            <itunes:summary></itunes:summary>
+            <itunes:summary>the naga sauce is HOT!</itunes:summary>
             <description>Ben orders a burrito, and Adam speculates about how spicy it will be</description>
             <link>https://remotehack.space/live/?episode=13</link>
             <enclosure url="https://remotehack.space/live/audio/episode-13.m4a" type="audio/m4a"></enclosure>
@@ -32,7 +45,7 @@
 
         <item>
             <title>Episode 12 - Microterview with Jane</title>
-            <itunes:summary></itunes:summary>
+            <itunes:summary>A non-technical remote hack</itunes:summary>
             <description>Our first non-coding remote hacker, Jane, joins us to talk about her motivation for joining the hackday and how it's going</description>
             <link>https://remotehack.space/live/?episode=12</link>
             <enclosure url="https://remotehack.space/live/audio/episode-12.m4a" type="audio/m4a"></enclosure>
