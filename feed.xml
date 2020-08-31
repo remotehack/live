@@ -16,6 +16,34 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+
+        <item>
+            <title>Episode 19 - Ben and Ryan (HackChat)</title>
+            <itunes:summary>Ben and Ryan </itunes:summary>
+            <description>Sailing past the 90-second episode guidelines, Ryan and Ben chat about remote hack, building things, and the future.</description>
+            <link>https://remotehack.space/live/?episode=19</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-19.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 29 August 2020 15:00:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:17:44</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=19</guid>
+        </item>
+
+
+        <item>
+            <title>Episode 18 - Ben and Ryan steal the Mic and Break ALL THE RULES!</title>
+            <itunes:summary>Hi from the August Hack</itunes:summary>
+            <description>Ryan and Ben have been chatting with Pete about past projects, codespaces and baton-relay-multi-script.</description>
+            <link>https://remotehack.space/live/?episode=18</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-18.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 29 August 2020 12:00:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:05:56</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=18</guid>
+        </item>
+
         <item>
             <title>Episode 17 - Microterview with Ryan (aka: Episode 16 part 1)</title>
             <itunes:summary>Adam picks up the pieces...</itunes:summary>
