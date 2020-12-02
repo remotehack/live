@@ -16,6 +16,84 @@
         <itunes:image href="https://remotehack.space/live/assets/big-hack.jpg" />
         <itunes:category text="Technology"/>
 
+        <item>
+            <title>Episode 26 - Adam as Ben interviews Ben as Adam</title>
+            <itunes:summary></itunes:summary>
+            <description>This idea sounded so good on paper, and if you're wondering if Ben delivered the goods, he definitely did!</description>
+            <link>https://remotehack.space/live/?episode=26</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-26.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 17:10:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=26</guid>
+        </item>
+
+
+        <item>
+            <title>Episode 25 - This is not the episode 24 you're looking for</title>
+            <itunes:summary></itunes:summary>
+            <description>I don't know where episode 24 went. Maybe it got compiled to WASM...so this is episode 25. We summarise the day quite nicely, if I do say so myself.</description>
+            <link>https://remotehack.space/live/?episode=25</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-25.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 16:57:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:39</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=25</guid>
+        </item>
+
+        <item>
+            <title>Episode 23 - Ben arrives at Ryan's, but they talk over the phone</title>
+            <itunes:summary></itunes:summary>
+            <description>While observing a suitable social distance, Ben and Ryan discuss Ryan's attempts to make people feel good, which are laudable. They enjoy the garden very much.</description>
+            <link>https://remotehack.space/live/?episode=23</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-23.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 15:57:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:29</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=23</guid>
+        </item>
+
+        <item>
+            <title>Episode 22 - A hardware day's night's hack</title>
+            <itunes:summary></itunes:summary>
+            <description>Panda fires up our first official hardware hack of the podcast, and finally finds out how hot his rooms are, then fixes things by adding random..........delays. </description>
+            <link>https://remotehack.space/live/?episode=22</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-22.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 13:57:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:04</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=22</guid>
+        </item>
+
+        <item>
+            <title>Episode 21 - Ben back in the office</title>
+            <itunes:summary></itunes:summary>
+            <description>Ben chats to Adam about how nothing planned has been achieved, though he's happy to be out of that tent!</description>
+            <link>https://remotehack.space/live/?episode=21</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-21.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 11:41:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:0:47</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=21</guid>
+        </item>
+
+        <item>
+            <title>Episode 20 - Possession and in tent to hack</title>
+            <itunes:summary>Ben on location</itunes:summary>
+            <description>Our plucky correspondent Ben is hacking from a tent. We don't find out much, but it's nice and succinct.</description>
+            <link>https://remotehack.space/live/?episode=20</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-20.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Sat, 26 September 2020 10:12:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:0:55</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=20</guid>
+        </item>
 
         <item>
             <title>Episode 19 - Ben and Ryan (HackChat)</title>
@@ -37,7 +115,7 @@
             <description>Ryan and Ben have been chatting with Pete about past projects, codespaces and baton-relay-multi-script.</description>
             <link>https://remotehack.space/live/?episode=18</link>
             <enclosure url="https://remotehack.space/live/audio/episode-18.m4a" type="audio/m4a"></enclosure>
-            <pubDate>Sat, 29 August 2020 12:00:00 +0000</pubDate>
+            <pubDate>Sat, 29 August 2020 10:16:00 +0000</pubDate>
             <itunes:author>Remote Hack</itunes:author>
             <itunes:duration>00:05:56</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
