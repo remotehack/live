@@ -17,6 +17,19 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 27 - A hackside chat (AKA: airquoth the raven)</title>
+            <itunes:summary></itunes:summary>
+            <description>A long form discussion of git merge and rebase, with various diversions into trying to get Ben to do more impressions, in which Adam breaks his own rules and we go WAY over time</description>
+            <link>https://remotehack.space/live/?episode=27</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-27.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Fri, 09 January 2021 20:15:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:27:36</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=27</guid>
+        </item>
+
+        <item>
             <title>Episode 26 - Adam as Ben interviews Ben as Adam</title>
             <itunes:summary></itunes:summary>
             <description>This idea sounded so good on paper, and if you're wondering if Ben delivered the goods, he definitely did!</description>
