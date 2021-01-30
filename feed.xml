@@ -17,6 +17,19 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 28 - Ben introduces the new intro</title>
+            <itunes:summary></itunes:summary>
+            <description>In this episode Ben excitedly reveals that we've got a new intro that was painstakingly and lovingly chopped together by Max (our new resident audio guy). Fans of the podcast will love the delivery on this episode.</description>
+            <link>https://remotehack.space/live/?episode=28</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-28.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 10:00:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:00:44</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=28</guid>
+        </item>
+
+        <item>
             <title>Episode 27 - A hackside chat (AKA: airquoth the raven)</title>
             <itunes:summary></itunes:summary>
             <description>A long form discussion of git merge and rebase, with various diversions into trying to get Ben to do more impressions, in which Adam breaks his own rules and we go WAY over time</description>
