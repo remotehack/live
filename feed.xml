@@ -30,6 +30,19 @@
         </item>
 
         <item>
+            <title>Episode 29 - Welcome to the January 2021 Remote hack</title>
+            <itunes:summary></itunes:summary>
+            <description>We're back and ready to hack after a relaxing break over December. This is our most international Remote Hack yet!</description>
+            <link>https://remotehack.space/live/?episode=29</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-29.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 11:00:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:08</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=29</guid>
+        </item>
+
+        <item>
             <title>Episode 28 - Ben introduces the new intro</title>
             <itunes:summary></itunes:summary>
             <description>In this episode Ben excitedly reveals that we've got a new intro that was painstakingly and lovingly chopped together by Max (our new resident audio guy). Fans of the podcast will love the delivery on this episode.</description>
