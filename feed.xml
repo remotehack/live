@@ -17,6 +17,32 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 34 - Ruth talks about jigsaws</title>
+            <itunes:summary></itunes:summary>
+            <description>After the big cliffhanger at the end of podcast episode 33, Ruth is finally allowed to talk about generating a jigsaw pattern to be cut by her laser cutter</description>
+            <link>https://remotehack.space/live/?episode=34</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-34.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 15:00:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:42</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=34</guid>
+        </item>
+
+        <item>
+            <title>Episode 33 - Magic number 33</title>
+            <itunes:summary></itunes:summary>
+            <description>Ruth talks in brief about about her podcast Generative Artistry</description>
+            <link>https://remotehack.space/live/?episode=33</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-33.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 14:45:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:15</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=33</guid>
+        </item>
+
+        <item>
             <title>Episode 32 - Ben elaborates why</title>
             <itunes:summary></itunes:summary>
             <description>After not answering Dan's earlier question in the previous episode, Ben follows up with a more concrete answer...</description>
