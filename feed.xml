@@ -17,6 +17,32 @@
         <itunes:category text="Technology"/>
 
         <item>
+            <title>Episode 32 - Ben elaborates why</title>
+            <itunes:summary></itunes:summary>
+            <description>After not answering Dan's earlier question in the previous episode, Ben follows up with a more concrete answer...</description>
+            <link>https://remotehack.space/live/?episode=32</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-32.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 12:45:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:09</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=32</guid>
+        </item>
+
+        <item>
+            <title>Episode 31 - Ben tells Dan what's going on</title>
+            <itunes:summary></itunes:summary>
+            <description>Dan was learning TypeScript but then found himself watching Ben fiddling around with AWS and had no idea what was going on.</description>
+            <link>https://remotehack.space/live/?episode=31</link>
+            <enclosure url="https://remotehack.space/live/audio/episode-31.m4a" type="audio/m4a"></enclosure>
+            <pubDate>Saturday, 30 January 2021 12:30:00 +0000</pubDate>
+            <itunes:author>Remote Hack</itunes:author>
+            <itunes:duration>00:01:22</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <guid>https://remotehack.space/live/feed.xml?episode=31</guid>
+        </item>
+
+        <item>
             <title>Episode 30 - Visualising LIDAR data from PCAP files</title>
             <itunes:summary></itunes:summary>
             <description>Adam is talking to Ben who has been working with replaying and visualising LIDAR data with PCAP files and the WebStream API.</description>
