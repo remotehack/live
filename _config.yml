@@ -1,7 +1,8 @@
 feed:
   author: Remote Hack
   title: AirQuotes the Podcast AirQuotes
-  link: 'https://remotehack.space'
+  link: https://remotehack.space
+  spotify_link: https://open.spotify.com/embed-podcast/show/2ppoyoTxxSv9IvRGGqLWP7
   language: en-gb
   subtitle: Micro all the things!
   summary: A podcast during the day of the remote hack
