@@ -42,5 +42,4 @@ layout: compress
 {% endfor %}
 </channel>
 </rss>
-{% endcapture %}
-{{ output | strip }}
+{% endcapture %}{{ output | strip }}
