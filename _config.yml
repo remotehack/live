@@ -1,0 +1,22 @@
+feed:
+  author: Remote Hack
+  title: AirQuotes the Podcast AirQuotes
+  link: 'https://remotehack.space'
+  language: en-gb
+  subtitle: Micro all the things!
+  summary: A podcast during the day of the remote hack
+  description: >-
+    Talking about the fun stuff during the day of the remote hack (monthly)
+    https://remotehack.space
+  owner:
+    name: Remote Hack
+    email: mail@remotehack.space
+  explicit: 'no'
+  image: assets/big-hack.jpg
+  category: Technology
+
+compress_html:
+  blanklines: true
+collections:
+  episodes:
+    output: false
