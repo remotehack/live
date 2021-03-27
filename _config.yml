@@ -21,3 +21,7 @@ compress_html:
 collections:
   episodes:
     output: false
+
+exclude:
+  - README.md
+  - .gitignore
