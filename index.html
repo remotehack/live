@@ -23,6 +23,7 @@ h1 { font-size: 2rem;}
 a { color: var(--light); background-color: var(--dark); display: inline; padding: .25em .75em; border: .1rem solid transparent; box-decoration-break: clone;}
 a:hover { text-decoration: none; border-color: currentColor; color:var(--dark); background-color: var(--light);}
 ul,li{list-style: none}
+li p { font-size: .8em; font-style: italic; max-width: 80%; margin: 1em auto;}
 
 </style>
 </head>
@@ -34,10 +35,11 @@ ul,li{list-style: none}
     <h2>Latest episodes... </h2>
     <ul>
         {% assign episodes = site.episodes | reverse %}
-        {% for episode in episodes limit:5 %}
+        {% for episode in episodes limit:8 %}
             {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
             <li>
                 <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
+                <p>{{ episode.description }}</p>
             </li>
         {% endfor %}
     </ul>
