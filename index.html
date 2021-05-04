@@ -35,7 +35,7 @@ li p { font-size: .8em; font-style: italic; max-width: 80%; margin: 1em auto;}
     <h2>Latest episodes... </h2>
     <ul>
         {% assign episodes = site.episodes | reverse %}
-        {% for episode in episodes limit:5 %}
+        {% for episode in episodes limit:6 %}
             {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
             <li>
                 <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
