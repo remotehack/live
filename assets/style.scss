@@ -1,0 +1,107 @@
+---
+---
+$dark: #1a1a1b;
+$light: #f0f0f1;
+$red: #d00;
+
+:root {
+    --dark: #{$dark};
+    --light: #{$light};
+
+    --bonusbg: #{$red};
+    --bonusfg: #{$light};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --dark: #{$light};
+        --light: #{$dark};
+        
+        --bonusbg: #{$light};
+        --bonusfg: #{$red};
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+
+    & + * {
+        margin-top: 1.5rem;
+    }
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--dark);
+    background: var(--light)
+}
+
+body {
+    margin: auto;
+    padding: 2rem;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    color: var(--light);
+    background-color: var(--dark);
+    display: inline;
+    padding: .25em .75em;
+    border: .1rem solid transparent;
+    box-decoration-break: clone;
+
+    &:hover {
+        text-decoration: none;
+        border-color: currentColor;
+        color: var(--dark);
+        background-color: var(--light);
+    }
+}
+
+
+ul,
+li {
+    list-style: none
+}
+
+li {
+    p {
+        font-size: .8em;
+        font-style: italic;
+        max-width: 80%;
+        margin: 1em auto;
+    }
+    &.bonus {
+        a {
+            position: relative;
+
+            &::before {
+                content: 'BONUS';
+                background-color: var(--bonusbg);
+                color: var(--bonusfg);
+                position: absolute;
+                left: -5em;
+                padding: .125em .25em 0;
+                font-size: .6em;
+                border: .16em dotted currentColor;
+                font-style: italic;
+                font-weight: bold;
+            }
+        }
+    }
+}
+

@@ -7,25 +7,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <head>
 <title>{{ site.feed.title }}</title>
-<style>
-:root { --dark: #1a1a1b; --light: #f0f0f1;}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --dark: #f0f0f1;
-        --light: #1a1a1b;
-    }
-}
-* { margin: 0; padding: 0; line-height: inherit;}
-html { font-family: sans-serif; font-size: 20px; line-height: 1.5; color: var(--dark); background: var(--light)}
-body { margin: auto; padding: 2rem; min-height: 100vh; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; max-width: 40rem;}
-h1 { font-size: 2rem;}
-* + * { margin-top: 1.5rem;}
-a { color: var(--light); background-color: var(--dark); display: inline; padding: .25em .75em; border: .1rem solid transparent; box-decoration-break: clone;}
-a:hover { text-decoration: none; border-color: currentColor; color:var(--dark); background-color: var(--light);}
-ul,li{list-style: none}
-li p { font-size: .8em; font-style: italic; max-width: 80%; margin: 1em auto;}
-
-</style>
+<link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
     <h1>{{ site.feed.title }}</h1>
@@ -37,7 +19,7 @@ li p { font-size: .8em; font-style: italic; max-width: 80%; margin: 1em auto;}
         {% assign episodes = site.episodes | reverse %}
         {% for episode in episodes limit:6 %}
             {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
-            <li>
+            <li class="{% if episode.bonus %}bonus{% endif %}">
                 <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
                 <p>{{ episode.description }}</p>
             </li>
