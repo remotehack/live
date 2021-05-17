@@ -20,6 +20,7 @@ layout: compress
     <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
     <itunes:image href="{{ urlbase }}{{ site.feed.image }}" />
     <itunes:category text="{{ site.feed.category }}"/>
+    <copyright>Copyright 2020-2021 Remote Hack Space</copyright>
 
 
 {% for episode in site.episodes %}
