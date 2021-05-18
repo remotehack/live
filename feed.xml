@@ -38,8 +38,8 @@ layout: compress
         <itunes:author>{{ author }}</itunes:author>
         <itunes:duration>{{ episode.duration }}</itunes:duration>
         <itunes:explicit>{{ explicit }}</itunes:explicit>
-        <link>{{ urlbase }}audio/episode-{{number}}.m4a</link>
-        <guid>{{ urlbase }}audio/episode-{{number}}.m4a</guid>
+        <link>{{ urlbase }}?episode={{ number }}</link>
+        <guid>{{ urlbase }}feed.xml?episode={{ number }}</guid>
         <enclosure url="{{ urlbase }}audio/episode-{{number}}.m4a" type="audio/x-m4a" length="{{ episode.length }}" />
     </item>
 {% endfor %}
