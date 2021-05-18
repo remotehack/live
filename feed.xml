@@ -36,7 +36,6 @@ layout: compress
         <pubDate>{{ episode.pubDate }}</pubDate>
         <enclosure url="{{ urlbase }}audio/episode-{{number}}.m4a" type="audio/m4a" length="{{ episode.length }}"></enclosure>
         <title>{{ episode.title }}</title>
-        {% if episode.summary %}<summary>{{ episode.summary }}</summary>{% endif %}
         <description>{{ episode.description }}</description>
         <itunes:summary>{{ episode.description }}</itunes:summary>
         <itunes:author>{{ author }}</itunes:author>
