@@ -20,9 +20,13 @@ layout: compress
     <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
     <itunes:image href="{{ urlbase }}{{ site.feed.image }}" />
     <itunes:category text="{{ site.feed.category }}"/>
+{% assign episodes = site.episodes | sort:"number" %}
+{% assign episodes_r = episodes | reverse %}
+{% capture start_year %}{% for episode in episodes limit:1 %}{{ episode.pubDate | date:"%Y" }}{% endfor %}{% endcapture %}
+{% capture end_year %}{% for episode in episodes_r limit:1 %}{{ episode.pubDate | date:"%Y" }}{% endfor %}{% endcapture %}
+    <copyright>Copyright {{start_year}}-{{end_year}} {{site.feed.owner.name }}</copyright>
 
-
-{% for episode in site.episodes %}
+{% for episode in episodes %}
 {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
 {% capture author %}{% if episode.author %}{{ episode.author }}{% else %}{{ site.feed.author }}{% endif %}{% endcapture %}
 {% capture explicit %}{% if episode.explicit %}{{ episode.explicit }}{% else %}{{ site.feed.explicit }}{% endif %}{% endcapture %}
