@@ -31,8 +31,6 @@ layout: compress
 {% capture author %}{% if episode.author %}{{ episode.author }}{% else %}{{ site.feed.author }}{% endif %}{% endcapture %}
 {% capture explicit %}{% if episode.explicit %}{{ episode.explicit }}{% else %}{{ site.feed.explicit }}{% endif %}{% endcapture %}
     <item>
-        <link>{{ urlbase }}?episode={{ number }}</link>
-        <guid>{{ urlbase }}feed.xml?episode={{ number }}</guid>
         <pubDate>{{ episode.pubDate }}</pubDate>
         <enclosure url="{{ urlbase }}audio/episode-{{number}}.m4a" type="audio/m4a" length="{{ episode.length }}"></enclosure>
         <title>{{ episode.title }}</title>
@@ -41,6 +39,8 @@ layout: compress
         <itunes:author>{{ author }}</itunes:author>
         <itunes:duration>{{ episode.duration }}</itunes:duration>
         <itunes:explicit>{{ explicit }}</itunes:explicit>
+        <link>{{ urlbase }}audio/episode-{{number}}.m4a</link>
+        <guid>{{ urlbase }}audio/episode-{{number}}.m4a</guid>
     </item>
 {% endfor %}
 </channel>
