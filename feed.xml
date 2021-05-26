@@ -3,11 +3,12 @@ layout: compress
 ---
 {% capture output %}
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 {% capture urlbase %}{{site.feed.link}}/live/{% endcapture %}
     <title>{{ site.feed.title }}</title>
     <link>{{ site.feed.link }}</link>
+    <atom:link href="{{ urlbase }}feed" rel="self" type="application/rss+xml" />
     <language>{{ site.feed.language }}</language>
     <itunes:subtitle>{{ site.feed.subtitle }}</itunes:subtitle>
     <itunes:author>{{ site.feed.author }}</itunes:author>
