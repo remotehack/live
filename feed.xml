@@ -30,18 +30,19 @@ layout: compress
 {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
 {% capture author %}{% if episode.author %}{{ episode.author }}{% else %}{{ site.feed.author }}{% endif %}{% endcapture %}
 {% capture explicit %}{% if episode.explicit %}{{ episode.explicit }}{% else %}{{ site.feed.explicit }}{% endif %}{% endcapture %}
-    <item>
-        <pubDate>{{ episode.pubDate }}</pubDate>
-        <title>{{ episode.title }}</title>
-        <description>{{ episode.description }}</description>
-        <itunes:summary>{{ episode.description }}</itunes:summary>
-        <itunes:author>{{ author }}</itunes:author>
-        <itunes:duration>{{ episode.duration }}</itunes:duration>
-        <itunes:explicit>{{ explicit }}</itunes:explicit>
-        <link>{{ urlbase }}?episode={{ number }}</link>
-        <guid>{{ urlbase }}feed.xml?episode={{ number }}</guid>
-        <enclosure url="{{ urlbase }}audio/episode-{{number}}.m4a" type="audio/x-m4a" length="{{ episode.length }}" />
-    </item>
+
+<item>
+    <pubDate>{{ episode.pubDate | date_to_rfc822 }}</pubDate>
+    <title>{{ episode.title }}</title>
+    <description>{{ episode.description }}</description>
+    <itunes:summary>{{ episode.description }}</itunes:summary>
+    <itunes:author>{{ author }}</itunes:author>
+    <itunes:duration>{{ episode.duration }}</itunes:duration>
+    <itunes:explicit>{{ explicit }}</itunes:explicit>
+    <link>{{ urlbase }}?episode={{ number }}</link>
+    <guid>{{ urlbase }}feed.xml?episode={{ number }}</guid>
+    <enclosure url="{{ urlbase }}audio/episode-{{number}}.m4a" type="audio/x-m4a" length="{{ episode.length }}" />
+</item>
 {% endfor %}
 </channel>
 </rss>
