@@ -17,7 +17,7 @@
     <h2>Latest episodes... </h2>
     <ul>
         {% assign episodes = site.episodes | reverse %}
-        {% for episode in episodes limit:6 %}
+        {% for episode in episodes limit:4 %}
             {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
             <li class="{% if episode.bonus %}bonus{% endif %}">
                 <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
