@@ -1,30 +1,28 @@
 ---
+layout: layout
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<head>
-<title>{{ site.feed.title }}</title>
-<link rel="stylesheet" href="assets/style.css" />
-</head>
-<body>
-    <h1>{{ site.feed.title }}</h1>
-    <p>{{ site.feed.summary }}</p>
-    <iframe src="{{ site.feed.spotify_link }}" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-    <h2>Latest episodes... </h2>
-    <ul>
-        {% assign episodes = site.episodes | reverse %}
-        {% for episode in episodes limit:5 %}
-            {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
-            <li class="{% if episode.bonus %}bonus{% endif %}">
-                <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
-                <p>{{ episode.description }}</p>
-            </li>
-        {% endfor %}
-    </ul>
-    <p>Find more episodes in the <a href="{{ site.feed.link }}/live/feed">RSS feed</a></p>
-</body>
-</html>
+<h1>{{ site.feed.title }}</h1>
+<p>{{ site.feed.summary }}</p>
+<iframe src="{{ site.feed.spotify_link }}" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<h2>Latest episodes... </h2>
+<ul>
+{% assign episodes = site.episodes %}
+{% assign latest_episode = episodes | sort:"number" | last  %}
+{% assign date_needle = latest_episode.pubDate | date:"%B %Y" %}
+{% assign latest_episodes = episodes | where_exp:"episode","episode.pubDate contains date_needle" %}
+{% assign episodes_count = latest_episodes | size %}
+{% comment %}If we have fewer than 4 episodes for the latest recording day, just grab the last 4 episodes instead... {% endcomment %}
+{% if episodes_count < 4 %}
+{% assign latest_episodes = episodes | slice: -4,4 | reverse %}
+{% endif %}
+{%- for episode in latest_episodes -%}
+    {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
+    <li class="{% if episode.bonus %}bonus{% endif %}">
+        <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
+        <p>{{ episode.description }}</p>
+    </li>
+{%- endfor -%}
+</ul>
+<p>Find more episodes in the <a href="{{ site.feed.link }}/live/feed">RSS feed</a></p>
