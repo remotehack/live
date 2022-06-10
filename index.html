@@ -20,7 +20,7 @@ layout: layout
 {%- for episode in latest_episodes -%}
     {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
     <li class="{% if episode.bonus %}bonus{% endif %}">
-        <a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ episode.title }}</a>
+        {% include episodelink.html episode=episode %}
         <p>{{ episode.description }}</p>
     </li>
 {%- endfor -%}

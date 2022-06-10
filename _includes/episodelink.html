@@ -1,0 +1,2 @@
+{% capture number %}{% if include.episode.number %}{{ include.episode.number }}{% else %}{{ include.episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
+<a href="{{site.feed.link}}/live/audio/episode-{{number}}.m4a">{{ include.episode.title }}</a>
