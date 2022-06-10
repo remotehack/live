@@ -19,7 +19,7 @@ layout: layout
 {% endif %}
 {%- for episode in latest_episodes -%}
     {% capture number %}{% if episode.number %}{{ episode.number }}{% else %}{{ episode.path | split:'/' | last | split:'.' | first | plus:'0' }}{% endif %}{% endcapture %}
-    <li class="{% if episode.bonus %}bonus{% endif %}">
+    <li>
         {% include episodelink.html episode=episode %}
         <p>{{ episode.description }}</p>
     </li>

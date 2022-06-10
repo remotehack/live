@@ -7,18 +7,12 @@ $red: #d00;
 :root {
     --dark: #{$dark};
     --light: #{$light};
-
-    --bonusbg: #{$red};
-    --bonusfg: #{$light};
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --dark: #{$light};
         --light: #{$dark};
-        
-        --bonusbg: #{$light};
-        --bonusfg: #{$red};
     }
 }
 
@@ -60,7 +54,7 @@ a {
     color: var(--light);
     background-color: var(--dark);
     display: inline;
-    padding: .25em .75em;
+    padding: .125em .5em;
     border: .1rem solid transparent;
     box-decoration-break: clone;
 
@@ -84,24 +78,6 @@ li {
         font-style: italic;
         max-width: 80%;
         margin: 1em auto;
-    }
-    &.bonus {
-        a {
-            position: relative;
-
-            &::before {
-                content: 'BONUS';
-                background-color: var(--bonusbg);
-                color: var(--bonusfg);
-                position: absolute;
-                left: -5em;
-                padding: .125em .25em 0;
-                font-size: .6em;
-                border: .16em dotted currentColor;
-                font-style: italic;
-                font-weight: bold;
-            }
-        }
     }
 }
 
