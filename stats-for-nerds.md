@@ -1,12 +1,12 @@
 --- 
-title: Stats For Nerds
+title: 🤓 Stats for Nerds
 permalink: /stats/ 
 layout: layout
 ---
-
-# {{ site.feed.title }}
-
-{{ page.title }}
+<style>
+    details { background: rgba(0,0,0,.2); text-align: left; width: 100%; max-width: 100%; padding: 1rem; box-sizing: border-box;}
+    summary { cursor: pointer;}
+</style>
 
 {% assign all_eps = site.episodes %}
 ## Number of episodes: {{ all_eps | size | plus:1 }}
@@ -22,10 +22,6 @@ layout: layout
 {% assign episodes_by_day = all_eps | group_by_exp:"episode","episode.pubDate | date: '%Y-%m-%d'" %}
 {% assign episodes_by_day_count = episodes_by_day | group_by_exp:"group","group.items | size" %}
 
-<style>
-    details { background: rgba(0,0,0,.2); text-align: left; width: 100%; max-width: 100%; padding: 1rem; box-sizing: border-box;}
-    summary { cursor: pointer;}
-</style>
 
 ## Number of episodes per day
 
