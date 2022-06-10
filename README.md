@@ -7,7 +7,8 @@
 We decided to start doing a remote hackday back when the covid-19 lockdowns started
 in March 2020, and then it was so much fun we just kept doing it.
 
-The site for the remote hack is [https://remotehack.space](https://remotehack.space), and we have a slack channel and issue tracker and all that fun stuff..
+The site for the remote hack is [https://remotehack.space](https://remotehack.space). 
+We have a [Discord](https://discord.gg/C4bW8v6Bf6), [issue tracker](https://github.com/remotehack/remotehack.github.io/issues), and all that fun stuff..
 
 Something we were missing, however, was a way for people to see what we were up to
 on the day without needing to join all the chats/zooms/etc.
