@@ -25,3 +25,10 @@ collections:
 exclude:
   - README.md
   - .gitignore
+keep_files: ['audio/', 'bonus/tracks/', 'bonus/branding_album/']
+
+defaults:
+  - scope:
+      type: "pages"
+    values:
+      layout: layout

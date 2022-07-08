@@ -1,5 +1,4 @@
 ---
-layout: layout
 title: 🎁 Bonus Bits
 permalink: /bonus/
 ---

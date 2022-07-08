@@ -1,7 +1,6 @@
 --- 
 title: 🤓 Stats for Nerds
 permalink: /stats/ 
-layout: layout
 ---
 <style>
     details { background: rgba(0,0,0,.2); text-align: left; width: 100%; max-width: 100%; padding: 1rem; box-sizing: border-box;}
