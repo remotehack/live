@@ -21,7 +21,7 @@ layout: compress
     <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
     <itunes:image href="{{ urlbase }}{{ site.feed.image }}" />
     <itunes:category text="{{ site.feed.category }}"/>
-{% assign episodes = site.episodes | sort:"number" %}
+{% assign episodes = site.episodes %}
 {% assign episodes_r = episodes | reverse %}
 {% capture start_year %}{% for episode in episodes limit:1 %}{{ episode.pubDate | date:"%Y" }}{% endfor %}{% endcapture %}
 {% capture end_year %}{% for episode in episodes_r limit:1 %}{{ episode.pubDate | date:"%Y" }}{% endfor %}{% endcapture %}

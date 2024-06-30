@@ -9,7 +9,7 @@ permalink: /
 <h2>Latest episodes... </h2>
 <ul>
 {% assign episodes = site.episodes %}
-{% assign latest_episode = episodes | sort:"number" | last  %}
+{% assign latest_episode = episodes  %}
 {% assign date_needle = latest_episode.pubDate | date:"%B %Y" %}
 {% assign latest_episodes = episodes | where_exp:"episode","episode.pubDate contains date_needle" | reverse %}
 {% assign episodes_count = latest_episodes | size %}

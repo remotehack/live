@@ -25,10 +25,12 @@ collections:
 exclude:
   - README.md
   - .gitignore
+  - gen-episode-yml.sh
 keep_files: ['audio/', 'bonus/tracks/', 'bonus/branding_album/']
 
 defaults:
   - scope:
+      path: ""
       type: "pages"
     values:
       layout: layout
