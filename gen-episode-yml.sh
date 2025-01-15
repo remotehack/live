@@ -27,7 +27,7 @@ length=$(stat -f%z "$file_path")
 
 
 # Generate YAML content
-cat <<EOF > "episodes/${episode_number}.yml"
+cat <<EOF > "./_episodes/${episode_number}.yml"
 ---
 title: Episode $episode_number - 
 description: ""
